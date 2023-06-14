@@ -1,9 +1,9 @@
 {
   "name": "github-latest-release",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get latest release information from github repository",
   "license": "MIT",
-  "repository": "chentsulin/github-latest-release",
+  "repository": "kingdonb/github-latest-release",
   "scripts": {
     "test": "mocha",
     "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
@@ -29,12 +29,12 @@
   "dependencies": {
     "bluebird": "^2.9.27",
     "lodash.pick": "^3.1.0",
-    "meow": "^3.0.0",
+    "meow": "^12.0.0",
     "request": "^2.56.0"
   },
   "devDependencies": {
-    "istanbul": "^0.3.14",
+    "istanbul": "^0.4.5",
     "mocha": "*",
-    "nock": "^2.3.0"
+    "nock": "^13.3.1"
   }
 }
